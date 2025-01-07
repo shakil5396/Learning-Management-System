@@ -1,4 +1,4 @@
-package librarymanagementsystem;
+package  learningmanagementsystem;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
 
 public class Login extends JFrame {
     Login() {
-        setTitle("Library Management System - Login");
+        setTitle(" learning Management System - Login");
         setLayout(null);
 
         // Custom panel with gradient background
