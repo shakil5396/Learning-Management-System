@@ -1,4 +1,4 @@
-package librarymanagementsystem;
+package learningmanagementsystem;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -9,13 +9,13 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class AdminPanel extends JFrame {
-    private LibraryDatabaseUpdate libraryDatabaseUpdate;
+    private learningDatabaseUpdate learningDatabaseUpdate;
     private JTextField titleField, authorField, publisherField, yearField, idField;
     private JPanel resultsPanel;
 
     public AdminPanel() {
-        libraryDatabaseUpdate = new LibraryDatabaseUpdate();
-        setTitle("Library Management System - Admin Panel");
+        learningDatabaseUpdate = new learningDatabaseUpdate();
+        setTitle("Learning Management System - Admin Panel");
         setSize(1200, 800);
         setLocation(
                 Toolkit.getDefaultToolkit().getScreenSize().width / 2 - getSize().width / 2,
