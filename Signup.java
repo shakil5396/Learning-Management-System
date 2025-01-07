@@ -1,4 +1,4 @@
-package librarymanagementsystem;
+package  learningmanagementsystem;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +7,7 @@ import java.awt.*;
 public class Signup extends JFrame {
 
   Signup() {
-    setTitle("Library Management System");
+    setTitle(" learning Management System");
     setLayout(null);
     ImageIcon icon = new ImageIcon(ClassLoader.getSystemResource("icons/Logo.png"));
     Image i2 = icon.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
