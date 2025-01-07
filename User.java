@@ -1,4 +1,4 @@
-package librarymanagementsystem;
+package  learningmanagementsystem;
 
 public class User {
     private String username;
