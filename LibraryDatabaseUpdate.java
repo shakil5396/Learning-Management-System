@@ -1,4 +1,4 @@
-package librarymanagementsystem;
+package  learningmanagementsystem;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
-public class LibraryDatabaseUpdate {
+public class  learningDatabaseUpdate {
 
   public void addNewUser(String name, String username1, String password1) {
     String query = "INSERT INTO login (name, username, password) VALUES (?, ?, ?)";
